@@ -2,7 +2,7 @@
 
 // 1. Дана строка **'ddd@bbb@ccc'**. Замените все **@** на **'!'**
 
-let str1 = 'ddd@bbb@ccc@';
+let str1 = 'ddd@bbb@ccc';
 document.writeln(str1.replace(/@/g, '!')); 
 
 
@@ -14,7 +14,7 @@ document.writeln(str2.toUpperCase());
 // 3. Дана строка **'JS'**. Сделайте из нее строку **'js'**.
 
 let str3 = 'JS';
-document.writeln(str3.toUpperCase());
+document.writeln(str3.toLowerCase());
 
 
 // 4. Дана строка**'I am a hero!'**. Выведите в консоль **количество символов** в этой строке.
